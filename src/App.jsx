@@ -22,9 +22,9 @@ function App() {
   
   return (
     
-    <div div className='row gap-4 text-center justify-content-center'>
+    <div className='row gap-4 text-center justify-content-center'>
       <header>
-        <h1>Countrix</h1>
+        <h1 className='text-light'>Countrix</h1>
         <RegionSelector onChange={setRegion}/>
       </header>
     {
